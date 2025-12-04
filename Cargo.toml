@@ -1,7 +1,10 @@
 [package]
-name = "arinc424-model"
+name = "arinc424-model-rs"
 version = "0.1.0"
 edition = "2024"
+authors = ["Lucas.F"]
+repository = "https://github.com/Bigben-Flight-Simulation/arinc424-model-rs"
+description = "Model of ARINC424-18"
 
 [dependencies]
 strum = {  version = "0.27.2", features = ["derive"] }
